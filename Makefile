@@ -6,7 +6,7 @@
 #    By: hnass-pe <hnass-pe@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/16 20:40:36 by hnass-pe          #+#    #+#              #
-#    Updated: 2021/11/16 20:41:07 by hnass-pe         ###   ########.fr        #
+#    Updated: 2021/11/23 19:59:44 by hnass-pe         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ INCLUDE = -I ./includes
 
 CFLAGS = -Wall -Werror -Wextra $(INCLUDE) 
 
-SRC = ./src/
+SRC = ./srcs/
 
 MAIN = $(addprefix $(SRC), \
 	ft_printf.c print_c.c print_void.c \
